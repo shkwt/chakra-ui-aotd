@@ -24,7 +24,7 @@
     "declarationMap": true
   },
   "include": ["packages"],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "**/templates/*"],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS",
