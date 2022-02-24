@@ -9,9 +9,10 @@ const formatStr = ["Y", "M", "D"];
 export const replaceFormat = (dirtyDate: Date, dirtyFormat: string) => {
   const date = new Date(dirtyDate);
   let format = dirtyFormat;
-  const formatStrCounts = formatStr.map((str) =>
-    format.substring(format.indexOf(str), format.lastIndexOf(str) + 1),
-  ).length;
+  const formatStrCounts = formatStr.map(
+    (str) =>
+      format.substring(format.indexOf(str), format.lastIndexOf(str) + 1).length,
+  );
 
   const getDate = (str: string) => {
     switch (str) {
