@@ -2,7 +2,6 @@
 
 An utils is a ...
 
-
 ## Installation
 
 ```sh
@@ -16,7 +15,7 @@ npm i @midnite/utils
 ## Import Components
 
 ```jsx
-import { utils } from "@midnite/utils"
+import { utils } from "@midnite/utils";
 ```
 
 ## Component:

@@ -3,9 +3,19 @@ import { ButtonProps } from "./type";
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (props, ref) => {
-    const {} = props;
+    const { children, type, value, isDisabled = false, ...rest } = props;
 
-    return <button></button>;
+    return (
+      <button
+        {...rest}
+        ref={ref}
+        type={type}
+        value={value}
+        disabled={isDisabled}
+      >
+        {children}
+      </button>
+    );
   },
 );
 

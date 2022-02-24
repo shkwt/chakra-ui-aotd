@@ -2,7 +2,6 @@
 
 An button is a ...
 
-
 ## Installation
 
 ```sh
@@ -16,7 +15,7 @@ npm i @midnite/button
 ## Import Components
 
 ```jsx
-import { Button } from "@midnite/button"
+import { Button } from "@midnite/button";
 ```
 
 ## Component:
